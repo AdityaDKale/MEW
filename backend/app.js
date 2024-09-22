@@ -14,7 +14,7 @@ const cors = require('cors');
 
 // Allow requests from your frontend
 app.use(cors({
-  origin: 'http://localhost:4000', // Replace this with the correct frontend URL
+  origin: 'https://mew-u0c7.onrender.com/', // Replace this with the correct frontend URL
   credentials: true, // If you are using cookies for authentication
 }));
 
